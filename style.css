@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+body{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.container{
+    height: 400px;
+    display: flex;
+    margin: 30px 0px;
+    background-color: rgb(122, 49, 111);
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+    margin-left: 24px;
+
+
+}
+.AppPlace{
+    width: 40%;
+    background-color: rgb(70, 25, 89);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 12px;
+    box-shadow: 10px 0px 40px 0px rgb(89, 25, 58);
+}
+
+.AppPlace button{
+    width: 50%;
+    height: 40px;
+    margin: 25px 0px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 15px;
+    border: none;
+    background-color:rgb(174, 216, 204);
+    box-shadow: 0px 4px 1px 0px red;
+    cursor: pointer;
+}
+
+.container img{
+    width: 400px;
+    margin: auto auto;
+    border-radius: 20px;
+    box-shadow: 0px 4px 1px 0px red;
+}
+
+.container h2 , .result{
+    color: rgb(174, 216, 204);
+}
+
+.container input{
+    width: 70%;
+    background-color: rgb(205, 102, 136);
+    font-size: 20px;
+    border-radius: 10px;
+    padding-left: 30px;
+    font-weight: 700;
+    margin: 15px 0px;
+}
